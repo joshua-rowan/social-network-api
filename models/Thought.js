@@ -14,7 +14,7 @@ const thoughtSchema = new Schema(
             default: Date.now
         },
 
-        username: {
+        userName: {
             type: Schema.Types.ObjectId,
             ref: 'User',
         },
